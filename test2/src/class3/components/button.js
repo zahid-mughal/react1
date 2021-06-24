@@ -1,7 +1,7 @@
 function Button(props){
     return(
         <div>
-            <button>{props.title}</button>
+            <button style={{color:props.color}}>{props.title}</button>
         </div>
     )
 }
